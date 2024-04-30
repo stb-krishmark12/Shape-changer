@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    height: 300px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+    button{
+        color: black;
+        background-color: white;
+    }
+    .shape{
+        background-color: white;
+    }
+  }
+.section{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 200px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    margin-left: 30px;
+    font-weight: 700;
+    width: 90px;
+    font-size: 12px;
+}
+
+.shape{
+    margin-left: 5px;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+}
+
